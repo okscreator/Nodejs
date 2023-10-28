@@ -1,0 +1,2 @@
+Hello everyone!
+This is a file called folder.txt

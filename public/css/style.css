@@ -1,0 +1,277 @@
+body {
+  background-color: #323478;
+  font-family: "Kanit", sans-serif;
+}
+
+.top-line {
+  display: flex;
+  margin: 20px 0;
+  padding: 0;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 25px;
+  letter-spacing: 1px;
+  color: #fff;
+}
+
+.sign-out {
+  display: flex;
+  padding: 10px;
+  outline: 2px solid #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+.title,
+.subtitle {
+  color: #fff;
+}
+
+.title {
+  font-size: calc(2vmin + 16px);
+  font-weight: 500;
+  letter-spacing: 3px;
+  line-height: 40px;
+  text-transform: uppercase;
+}
+
+.subtitle {
+  font-size: calc(1vmin + 16px);
+  font-weight: 500;
+  letter-spacing: 3px;
+  line-height: 40px;
+  text-transform: uppercase;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+input,
+.btn {
+  display: flex;
+  padding: 10px 15px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  font-size: 23px;
+  color: #323478;
+}
+
+.form-login input,
+.form-login .btn {
+  width: 100%;
+}
+
+.form-register input,
+.form-register .btn {
+  width: unset;
+  margin-bottom: 5px;
+}
+
+.submit {
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.container {
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.section-output,
+.list-messages {
+  background-color: #fff;
+  min-height: 50vh;
+  max-height: 50vh;
+  max-width: 640px;
+  border-radius: 25px;
+  overflow-y: scroll;
+  -ms-overflow-style: none;
+  overflow: -moz-scrollbars-none;
+}
+
+.section-output::-webkit-scrollbar,
+.list-messages::-webkit-scrollbar {
+  width: 0;
+}
+
+.section-login,
+.section-register {
+  display: flex;
+  flex-direction: column;
+  max-width: 650px;
+}
+
+.list {
+  padding: 25px;
+}
+
+.item a {
+  font-size: calc(1.5vmin + 14px);
+  font-weight: 200;
+  color: #333;
+}
+
+.item a:hover {
+  color: #323478;
+  font-weight: 300;
+}
+
+.dots a {
+  font-weight: 500;
+  font-size: calc(1.5vmin + 18px);
+  letter-spacing: 4px;
+}
+
+.dots a:hover {
+  font-weight: 600;
+  letter-spacing: 6px;
+  color: #323478;
+}
+
+.dir a {
+  color: brown;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+.reg-btn {
+  margin-top: 8px;
+  cursor: pointer;
+  text-transform: uppercase;
+  justify-content: center;
+  outline: 1px solid #fff;
+  color: #fff;
+  width: auto;
+  background-color: transparent;
+}
+
+.form-login {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: 1fr 1fr auto;
+}
+
+.form-register {
+  display: flex;
+  flex-direction: column;
+  max-width: 650px;
+}
+
+small {
+  color: lightcoral;
+}
+
+small:last-of-type {
+  margin-bottom: 5px;
+}
+
+.message {
+  border-radius: 5px;
+  padding: 10px 15px;
+  margin: 10px 0;
+  font-size: 16px;
+  letter-spacing: 1px;
+  font-weight: 300;
+  height: auto;
+  transform: scale(1);
+  transform-origin: left center;
+  transition: all 0.5s;
+}
+
+.successful {
+  visibility: visible;
+  background-color: rgb(78 191 153);
+  color: #fff;
+}
+
+.error {
+  visibility: visible;
+  background-color: #df3232;
+  color: #eee;
+}
+
+.hide {
+  visibility: hidden;
+  height: 0;
+  padding: 0;
+  transform: scale(0);
+}
+
+.wrap {
+  display: flex;
+}
+
+.block-file-explorer {
+  width: 100%;
+}
+
+.block-messages,
+.visitors-counter {
+  display: flex;
+  width: 100%;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.list-messages {
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.85);
+  margin-left: 10px;
+  padding: 25px;
+  box-sizing: border-box;
+  flex-direction: column;
+  width: 98%;
+}
+
+.list-messages p {
+  color: #333;
+  margin: 0;
+  line-height: 22px;
+  padding-bottom: 9px;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.visitors-counter {
+  display: flex;
+  align-items: flex-end;
+  box-sizing: border-box;
+  flex-direction: column;
+  width: 100%;
+}
+
+.counter {
+  display: flex;
+  background-color: #a52a2a;
+  color: #fff;
+  border-radius: 25px;
+  height: 80px;
+  margin-bottom: 26px;
+  width: 250px;
+  align-items: center;
+  justify-content: center;
+  font-size: 23px;
+}
+
+.count {
+  font-size: 42px;
+  color: bisque;
+}
